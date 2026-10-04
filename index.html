@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><title>Netflix India – Watch TV Shows Online, Watch Movies Online</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
+<!-- Three "pages" in one file. script.js shows only the one matching the URL hash. -->
+<div id="home" data-view="/"><header class="hero"><nav><a class="logo" href="#/">NETFLIX</a><div class="right"><select aria-label="Language"><option>English</option><option>हिन्दी</option><option>தமிழ்</option></select><a class="btn" href="#/login">Sign In</a></div></nav>
+<div class="hero-body"><h1>Unlimited movies, TV shows and more</h1><h2>Starts at ₹149. Cancel at any time.</h2><p>Ready to watch? Enter your email to create or restart your membership.</p>
+<form class="email-row"><input type="email" placeholder="Email address" aria-label="Email address" required><button class="btn lg">Get Started ›</button></form></div></header>
+<div class="curve"></div>
+<section class="band"><div class="wrap"><h3>Trending Now</h3><div class="row">
+<a class="poster" style="background:linear-gradient(160deg,#b31217,#1b1b1b)"><b>1</b></a>
+<a class="poster" style="background:linear-gradient(160deg,#0f2027,#2c5364)"><b>2</b></a>
+<a class="poster" style="background:linear-gradient(160deg,#614385,#516395)"><b>3</b></a>
+<a class="poster" style="background:linear-gradient(160deg,#f12711,#f5af19)"><b>4</b></a>
+<a class="poster" style="background:linear-gradient(160deg,#134e5e,#71b280)"><b>5</b></a>
+<a class="poster" style="background:linear-gradient(160deg,#42275a,#734b6d)"><b>6</b></a>
+<a class="poster" style="background:linear-gradient(160deg,#232526,#414345)"><b>7</b></a>
+<a class="poster" style="background:linear-gradient(160deg,#c33764,#1d2671)"><b>8</b></a>
+<a class="poster" style="background:linear-gradient(160deg,#00467f,#a5cc82)"><b>9</b></a>
+<a class="poster" style="background:linear-gradient(160deg,#cb2d3e,#ef473a)"><b>10</b></a></div></div></section>
+<section class="band"><div class="wrap"><h3>More reasons to join</h3><div class="reasons">
+<div class="reason"><div><h4>Enjoy on your TV</h4><p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV and more.</p></div><span>📺</span></div>
+<div class="reason"><div><h4>Download your shows to watch offline</h4><p>Save your favourites easily and always have something to watch.</p></div><span>⬇️</span></div>
+<div class="reason"><div><h4>Watch everywhere</h4><p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p></div><span>📱</span></div>
+<div class="reason"><div><h4>Create profiles for kids</h4><p>Send kids on adventures with their favourite characters in a space made just for them.</p></div><span>🧒</span></div></div></div></section>
+<section class="band"><div class="wrap"><h3>Frequently Asked Questions</h3>
+<details><summary>What is Netflix?</summary><p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime and documentaries on thousands of internet-connected devices.</p></details>
+<details><summary>How much does Netflix cost?</summary><p>Watch Netflix on your smartphone, tablet, smart TV or laptop for a monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p></details>
+<details><summary>Where can I watch?</summary><p>Watch anywhere, anytime on any internet-connected device with the Netflix app, or on the web at netflix.com.</p></details>
+<details><summary>How do I cancel?</summary><p>Netflix is flexible. There are no annoying contracts and no commitments. Cancel online in two clicks.</p></details>
+<details><summary>Is Netflix good for kids?</summary><p>The Netflix Kids experience is included in your membership, with parental controls and kids-only profiles.</p></details>
+<div class="cta"><p style="margin-top:2rem">Ready to watch? Enter your email to create or restart your membership.</p><form class="email-row"><input type="email" placeholder="Email address" aria-label="Email address" required><button class="btn lg">Get Started ›</button></form></div></div></section>
+</div>
+<div id="login" class="auth" data-view="/login" hidden><nav><a class="logo" href="#/">NETFLIX</a></nav>
+<main class="box"><h1>Sign In</h1><form data-auth="login" novalidate>
+<div class="field"><input id="email" type="email" placeholder=" " data-rule="email" autocomplete="email"><label for="email">Email or mobile number</label></div><p class="err">Please enter a valid email address.</p>
+<div class="field"><input id="pw" type="password" placeholder=" " data-rule="pass" autocomplete="current-password"><label for="pw">Password</label></div><p class="err">Your password must contain at least 6 characters.</p>
+<button class="btn">Sign In</button><div class="or">OR</div><a class="btn ghost" style="text-align:center" href="#">Use a Sign-In Code</a>
+<div class="row2"><label><input type="checkbox" checked> Remember me</label><a href="#">Forgot password?</a></div></form>
+<p class="sw">New to Netflix? <a href="#/signup">Sign up now</a>.</p><p class="small">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p></main></div>
+<div id="signup" class="auth" data-view="/signup" hidden><nav><a class="logo" href="#/">NETFLIX</a><a href="#/login" style="font-weight:600;text-decoration:none">Sign In</a></nav>
+<main class="box"><p class="muted">STEP 1 OF 3</p><h1>Create a password to start your membership</h1><p class="muted" style="margin-bottom:1.2rem">Just a few more steps and you're done! We hate paperwork, too.</p><form data-auth="signup" novalidate>
+<div class="field"><input id="s-email" type="email" placeholder=" " data-rule="email" autocomplete="email"><label for="s-email">Email</label></div><p class="err">Please enter a valid email address.</p>
+<div class="field"><input id="s-pw" type="password" placeholder=" " data-rule="pass" autocomplete="new-password"><label for="s-pw">Add a password</label></div><p class="err">Your password must contain at least 6 characters.</p>
+<label class="muted" style="font-size:.9rem"><input type="checkbox" checked> Yes, please email me Netflix special offers.</label>
+<button class="btn lg">Next</button></form><p class="sw">Already a member? <a href="#/login">Sign in</a>.</p></main></div>
+<footer><div class="wrap"><p>Questions? Call 000-800-919-1694</p><div class="cols"><a href="#">FAQ</a><a href="#">Help Centre</a><a href="#">Account</a><a href="#">Media Centre</a><a href="#">Investor Relations</a><a href="#">Jobs</a><a href="#">Terms of Use</a><a href="#">Privacy</a><a href="#">Contact Us</a></div><p>Netflix India (student recreation for learning purposes only)</p></div></footer><script src="script.js"></script></body></html>
